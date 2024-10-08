@@ -1,0 +1,338 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.bi-phone-vibrate {
+    font-size: 50px;
+    color: #34AD54;
+}
+
+.farm {
+    color: #f93 !important;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.fresh {
+    color: #34AD54 !important;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.nav-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #34AD54;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-number {
+    display: inline;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.nav-list li:hover {
+    background-color: #f93;
+    width: 100%;
+    height: 100%;
+}
+
+ul li select {
+    border: none;
+    outline: none;
+    background-color: #34AD54;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-main {
+    background-color: #34AD54;
+    color: white;
+    position: sticky;
+    z-index: 999999;
+    width: 100%;
+    top: 0;
+}
+
+
+.explore {
+    background-color: #34ad54;
+    color: white;
+}
+
+.contact {
+    background-color: #f93;
+    color: white;
+}
+
+.carousel-caption {
+    right: 60% !important;
+    bottom: 17rem !important;
+    text-align: left !important;
+    width: 700px !important;
+}
+
+.cation-paragraf {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.organic-vegtable {
+    background: url(../asset/img/vegetable.png) bottom right no-repeat;
+
+}
+
+.organic-fruit {
+    background: url(../asset/img/fruit.png) bottom right no-repeat;
+
+}
+
+.bg-veg {
+    background-color: #34AD54 !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bg-frut {
+    background-color: #f93 !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    position: relative;
+    margin-top: -90px;
+    z-index: 1;
+}
+
+.font {
+    color: linear-gradient(#34AD54, #f93) !important;
+}
+
+.about-sapn {
+    color: #34AD54 !important;
+}
+
+.about-h1 {
+    margin-bottom: .5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #263A4F
+}
+
+.img-box {
+    border: solid #34ad54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-award {
+    background-image: linear-gradient(#34AD54, #FF9933);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .5s;
+
+}
+
+.Experience {
+
+    background-color: #34AD54;
+}
+
+.Experience-icon {
+    color: white;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f93;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Experience-div {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dispaly {
+    display: none;
+}
+
+.fa-carrot,
+.fa-apple-alt,
+.fa-dog,
+.fa-tractor,
+.fa-seedling {
+    background-image: linear-gradient(#34AD54, #FF9933);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .5s;
+}
+
+.veg-hover:hover {
+    background-color: #34ad54 !important;
+}
+
+.my-icon {
+    color: white !important;
+}
+
+.fruits-part {
+    background-color: #34AD54 !important;
+}
+
+.middle-back {
+    background-color: aliceblue !important;
+}
+
+.afteri::after {
+    position: absolute;
+    content: "";
+    width: 90%;
+    height: 30%;
+    background: url(./img/bg-product-1.png) left bottom no-repeat, url(./img/bg-product-2.png) right bottom no-repeat;
+    background-size: contain;
+    background-color: #34ad54;
+    z-index: -55;
+    margin-top: -190px !important;
+    right: 60px;
+}
+
+.team {
+    position: relative;
+}
+
+.team-p {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 999;
+    height: 20%;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #34ad54;
+    opacity: 0.8;
+}
+
+.team-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #f93 !important;
+    font-size: 20px;
+}
+
+.team-div {
+    width: 100%;
+    height: 100%;
+    background-color: #f93;
+
+}
+
+.main-blog-div {
+    position: relative;
+}
+
+.blog-div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #34AD54;
+    background: linear-gradient(rgba(52, 173, 84, 0), rgba(52, 173, 84, 1));
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.blog-text {
+    margin-top: 90% !important;
+    margin-left: 5%;
+}
+
+.footer {
+    position: relative;
+    opacity: 0.8;
+    background-color: #34AD54;
+    height: 330px;
+
+}
+
+.footer-list {
+    position: absolute;
+    bottom: 0 !important;
+}
+
+.footer-last-div {
+    background-color: #f93;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-input {
+    padding: 8px !important;
+    outline: none;
+}
+
+.form-label {
+    background-color: #34AD54;
+    padding: 10px !important;
+    border: none;
+    margin-bottom: 3px;
+}
+
+.footer-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
